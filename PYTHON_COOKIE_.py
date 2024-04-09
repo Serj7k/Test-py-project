@@ -32,4 +32,4 @@ cookie['foo']['max-age'] = 900
 cookie['foo']['max-age'] = -1
 
 # <no> <report>
-cookie['foo']['field'] = 'value'
+cookie['foo']['field'] = 'value' # EMPTY_COMMENT
