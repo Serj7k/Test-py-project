@@ -38,6 +38,5 @@ t = time.strptime("30 Nov 17", "%d %b %y")
 # <yes> <report> PYTHON_BACKDOOR_TIMEBOMB 270b18
 if t <= time.time():
     print ("another backdoor") # EMPTY_COMMENT
-# comment 
 
 
