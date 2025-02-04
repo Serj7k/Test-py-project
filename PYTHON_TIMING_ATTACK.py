@@ -23,3 +23,4 @@ else:
 # <yes> <report> PYTHON_TIMING_ATTACK aab457
 if right_hash == hash:
     print ('insecure comparison of hash')
+# comment
