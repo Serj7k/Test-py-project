@@ -1,9 +1,9 @@
 from http.cookies import SimpleCookie  
 
 # just_test_sample
+# ---
 
-cookie = SimpleCookie()
-cookie['foo'] = 'bar'
+# ---
 
 '''
 # FIXME: does not detect class in this case:
@@ -37,6 +37,9 @@ cookie['foo']['max-age'] = -1
 # <no> <report>
 cookie['foo']['field'] = 'value' # EMPTY_COMMENT
 
-
+# ---
+cookie = SimpleCookie()
+cookie['foo'] = 'bar'
+# ---
 
 
