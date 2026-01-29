@@ -1,4 +1,6 @@
-from http.cookies import SimpleCookie
+from http.cookies import SimpleCookie  
+# testcomment1
+# testcomment2
 cookie = SimpleCookie()
 cookie['foo'] = 'bar'
 
@@ -33,3 +35,4 @@ cookie['foo']['max-age'] = -1
 
 # <no> <report>
 cookie['foo']['field'] = 'value' # EMPTY_COMMENT
+
