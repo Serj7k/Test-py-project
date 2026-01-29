@@ -1,9 +1,6 @@
 from http.cookies import SimpleCookie  
 
-# just_test_sample_below:
-for i, v in enumerate(['a', 'b', 'c']):
-    print(i, v)  # Выводит индекс и значение
-
+# just_test_sample
 
 cookie = SimpleCookie()
 cookie['foo'] = 'bar'
@@ -39,6 +36,7 @@ cookie['foo']['max-age'] = -1
 
 # <no> <report>
 cookie['foo']['field'] = 'value' # EMPTY_COMMENT
+
 
 
 
