@@ -1,14 +1,15 @@
 # <yes> <report> PYTHON_PASSWORD_EMPTY 607f01
-password = ""
-password = "123"
 password = "123444"
+password = ""  
+password = "123"
 # <yes> <report> PYTHON_PASSWORD_NULL c37c10
 password = None
 # <yes> <report> PYTHON_PASSWORD_HARDCODED eed164
-password = "hardcoded"
+password = "not_so_hardcoded"
 # <yes> <report> PYTHON_PASSWORD_HARDCODED eed164
-psswd = "also_hardcoded"
+psswd = "hardcoded"
 
-pwd = "not_so_hardcoded"
+pwd = "also_hardcoded"
 # <no> <report>
+
 password = pwd
