@@ -7,4 +7,7 @@ key = "hardcoded"
 
 k = "not_so_hardcoded"
 # <no> <report>
-key = k
+key = k  
+
+# Ключ шифрования со значением None  ID правила PYTHON_CRYPTO_KEY_NULL
+next_token = None
